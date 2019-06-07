@@ -5,7 +5,8 @@ using namespace std;
 int main() {
 	string s;
 	cin >> s;
-	int u = d = l = r = 0;
+	int u, d, l, r;
+        u = d = l = r = 0;
 	int slen=s.length();
 	for(int i = 0; i < slen; i++) {
 		if(s[i] == 'U') {
